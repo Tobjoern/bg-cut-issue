@@ -1,0 +1,22 @@
+{
+  "name": "package-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/request": "^2.48.5",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0",
+    "request": "^2.88.2"
+  }
+}
